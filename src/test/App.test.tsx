@@ -32,7 +32,7 @@ describe('App', () => {
   });
 
   it('renders the brand logo', () => {
-    expect(screen.getAllByText('ERWI.').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('ERWIN.').length).toBeGreaterThan(0);
   });
 
   it('renders all nav links', () => {

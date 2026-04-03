@@ -124,7 +124,7 @@ export default function App() {
             className={`text-2xl italic font-[family-name:var(--font-display)] cursor-pointer ${focusRing}`}
             style={{ color: "var(--accent)" }}
           >
-            ERWIN.
+            ERWI.
           </motion.a>
 
           {/* Desktop Nav */}
@@ -880,7 +880,7 @@ export default function App() {
             className={`text-2xl italic font-[family-name:var(--font-display)] cursor-pointer ${focusRing}`}
             style={{ color: "var(--accent)" }}
           >
-            ERWIN.
+            ERWI.
           </a>
 
           <div className="flex items-center gap-8 text-sm">
