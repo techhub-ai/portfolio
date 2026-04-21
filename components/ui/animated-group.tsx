@@ -115,10 +115,9 @@ function AnimatedGroup({
   const containerVariants = variants?.container || selectedVariants.container;
   const itemVariants = variants?.item || selectedVariants.item;
 
-  // Access pre-built motion components by tag name to avoid creating new
-  // components inside render scope, which would trigger react-hooks/static-components.
-  const MotionComponent = (motion as Record<string, React.ElementType>)[as as string] ?? motion.div;
-  const MotionChild = (motion as Record<string, React.ElementType>)[asChild as string] ?? motion.div;
+  const motionComponents = motion as unknown as Record<string, React.ElementType>;
+  const MotionComponent = motionComponents[as as string] ?? motion.div;
+  const MotionChild = motionComponents[asChild as string] ?? motion.div;
 
   return (
     <MotionComponent

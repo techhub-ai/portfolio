@@ -1,3 +1,4 @@
+'use client';
 import { motion } from 'motion/react'
 import { TextEffect } from '@/components/ui/text-effect'
 import { AnimatedGroup } from '@/components/ui/animated-group'

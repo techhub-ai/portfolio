@@ -1,3 +1,4 @@
+'use client';
 import { Monitor, Workflow, Globe, Download } from "lucide-react";
 import { motion } from "motion/react";
 import { TextEffect } from "@/components/ui/text-effect";

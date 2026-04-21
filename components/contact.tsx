@@ -57,13 +57,6 @@ export function Contact() {
         <section id="contact" className="py-24 md:py-32">
             <div className="mx-auto max-w-7xl px-6">
                 <div className="mx-auto max-w-2xl text-center">
-                    <AnimatedGroup
-                        variants={{
-                            container: { visible: { transition: { staggerChildren: 0.08 } } },
-                            ...transitionVariants,
-                        }}>
-                    </AnimatedGroup>
-
                     <TextEffect
                         preset="fade-in-blur"
                         speedSegment={0.3}
