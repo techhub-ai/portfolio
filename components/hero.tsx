@@ -4,7 +4,7 @@ import { ArrowDown, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { TextEffect } from "@/components/ui/text-effect";
 import { AnimatedGroup } from "@/components/ui/animated-group";
-import { HeroHeader } from "./header";
+import { Header } from "./header";
 
 function GithubIcon({ className }: { className?: string }) {
   return (
@@ -47,7 +47,7 @@ const transitionVariants = {
 export function PortfolioHero() {
   return (
     <>
-      <HeroHeader />
+      <Header />
 
       <section
         id="home"
